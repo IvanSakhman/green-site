@@ -23,7 +23,32 @@
 		</header>
 
 		<!--       Start Rotator       -->
-		<div id="Rotator" class="rotator"></div>
+		<div id="Rotator" class="rotator">
+			<a class="prev" href="#"></a>
+			<div class="rotator-wrapper">
+				<ul>
+					<li class="slide0">
+						<div>
+							Slide 1
+							ADD LONELY CAPTIONS TO BACK SLIDE AND MAKE YOUR BUSINESS STAND OUT
+						</div>
+					</li>
+					<li class="slide1">
+						<div>
+							Slide 2
+							ADD LONELY CAPTIONS TO BACK SLIDE AND MAKE YOUR BUSINESS STAND OUT
+						</div>
+					</li>
+					<li class="slide2">
+						<div>
+							Slide 3
+							ADD LONELY CAPTIONS TO BACK SLIDE AND MAKE YOUR BUSINESS STAND OUT
+						</div>
+					</li>
+				</ul>
+			</div>
+			<a class="next" href="#"></a>
+		</div>
 		
 		<div class="content">
 			<h2>WELCOME TO <span>ELEGANTICA</span> - A MINIMAL THEME</h2>
@@ -74,7 +99,7 @@
 				<h4>Recent from <span>Portfolio</span></h4>
 			</div>
 			<div class="portfolio-item">
-				<img src="#" alt="portfolio-item" />
+				<img src="img/img1.jpg">
 				<h5>Business Cards</h5>
 				<a href="#">Video</a>
 				<a href="#">Interview</a>
@@ -86,9 +111,9 @@
 				</p>
 			</div>
 			<div class="portfolio-item">
-				<img src="#" alt="portfolio-item" />
+				<img src="img/img2.jpg">
 				<h5>Moo Minicards</h5>
-				<a href="#">Business Cards</a>
+				<a href="#">Video</a>
 				<a href="#">Interview</a>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -98,7 +123,7 @@
 				</p>
 			</div>
 			<div class="portfolio-item">
-				<img src="#" alt="portfolio-item" />
+				<img src="img/img3.jpg">
 				<h5>Say It In Print</h5>
 				<a href="#">Video</a>
 				<a href="#">Interview</a>
@@ -110,7 +135,7 @@
 				</p>
 			</div>
 			<div class="portfolio-item">
-				<img src="#" alt="portfolio-item"/>
+				<img src="img/img4.jpg">
 				<h5>Graphics In Print</h5>
 				<a href="#">Video</a>
 				<a href="#">Interview</a>
@@ -192,5 +217,14 @@
 				</div>
 			</div>
 		</footer>
+
+		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+		<script src="js/jquery.rotator.js"></script>
+		<script>
+			$(function () {
+				$('#Rotator').Rotator();
+			});
+		</script>
 	</body>
 </html>

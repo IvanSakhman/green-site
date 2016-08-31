@@ -163,11 +163,69 @@ header nav {
 	float: right;
 }
 
-.rotator{
+.rotator {
 	background: #9fc63f;
 	clear: both;
 	height: 415px;
 	position: relative;
+}
+
+.rotator .prev {
+	background-image: url(../img/backward.png);
+	display: block;
+	height: 60px;
+	left: 50px;
+	margin-top: -30px;
+	position: absolute;
+	top: 50%;
+	width: 60px;
+}
+
+.rotator .next {
+	background-image: url(../img/forward.png);
+	display: block;
+	height: 60px;
+	right: 50px;
+	margin-top: -30px;
+	position: absolute;
+	top: 50%;
+	width: 60px;
+}
+
+.rotator .rotator-wrapper {
+	height: 420px;
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+	position: relative;
+}
+
+.rotator ul {
+	position: absolute;
+	top: 0;
+	width: 2000em;
+}
+
+.rotator li {
+	float: left;
+	height: 420px;
+	width: 960px;
+	position: relative;
+}
+
+.slide0, .slide1, .slide2 {
+	background: url(../img/slide.png) left center no-repeat;
+}
+
+.slide0 div, .slide1 div, slide2 div {
+	color: #fff;
+	font-size: 25px;
+	line-height: 1.5;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 75px;
+	width: 400px;
 }
 
 .content h2 {
@@ -245,4 +303,85 @@ header nav {
 .services h5 {
     font-size: 14px;
     text-align: center;
+}
+
+.services h3 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.services h5 {
+	font-size: 14px;
+	text-align: center;
+}
+
+.sub-header {
+	background: url(../img/dashed.png) center repeat-x;
+	clear: both;
+	height: 20px;
+	margin-bottom: 35px;
+}
+
+.sub-header h4 {
+	background: #f5f5f5;
+	font-size: 20px;
+	height: 20px;
+	width: 275px;
+	padding-top: 4px;
+	margin-left: 35px;
+}
+
+.portfolio-item {
+	border: 1px solid #ebebeb;
+	float: left;
+	width: 465px;
+	margin-bottom: 25px;
+	margin-right: 26px;
+}
+
+.portfolio-item:nth-child(2n+1) {
+	margin-right: 0;
+}
+
+.portfolio-item img {
+	float: left;
+	height: 148px;
+	width: 227px;
+	margin-right: 20px;
+}
+
+.portfolio-item h5 {
+	font-size: 12px;
+	margin: 15px 0 10px 0;
+}
+
+.portfolio-item a {
+	background: #9fc63f;
+	color: #fff;
+	text-decoration: none;
+	padding: 3px 10px;
+	display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 14px;
+}
+
+.portfolio-item p {
+	margin-top: 15px;
+}
+
+.advertisers {
+	clear: both;
+}
+
+.advertisers li {
+	float: left;
+	height: 131px;
+	width: 160px;
+}
+
+.advertisers img {
+	display: block;
+	height: 131px;
+	width: 160px;
 }
